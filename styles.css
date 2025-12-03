@@ -1,0 +1,102 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding-top:20px;
+    height:145%;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height:100%;
+    
+}
+
+h1 {
+    color: #000000;
+    margin-top: 5px;
+    font-family: Cursive;
+    font-weight: bold;
+    font-size: 2.4em;
+    border:1px solid red;
+    background-color: #55ff55 ;
+    border-radius: 15px;
+}
+
+.card {
+    background: linear-gradient(140deg, yellow,gold, #ff3f3f);
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.card2 {
+    background: linear-gradient(120deg, #0a0a0a,#ffff00, #cccc22);
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #34495e;
+    margin-top: 0;
+}
+
+input[type="file"], textarea, button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+input[type="file"] {
+    background-color: #0000dd;
+    color: white;
+    font-weight: bold;
+    font-size: 1.15em;
+}
+
+textarea {
+    resize: vertical;
+    font-family: inherit;
+}
+
+button {
+    background-color: #0000db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+#clock {
+    margin-top:20px;
+    margin-bottom:20px;
+    width:80%;
+    height:2%;
+    border: 1px solid red;
+    font-size:30px;
+    font-weight: bold;
+    color: brown;
+}
+#exportFile {
+    width:60%;
+}

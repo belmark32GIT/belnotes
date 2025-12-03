@@ -1,0 +1,59 @@
+<?php
+date_default_timezone_set('Africa/Addis_Ababa');
+$timeNow = date('H:i:s');
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📒Belmark Notes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="pghd">📒  Bel Notes🔥</h1><button onClick="toggleChat()">Second Call</button>
+         <span id="clock"><?php echo $timeNow; ?></span>
+         
+         <div class="card">
+             <h2>Input File Name</h2>
+             <input id="title" type="text">
+             <p>
+             
+         </div>
+         
+
+         
+        <div class="card">
+            <h2>👉Open Saved Notes</h2>
+            <p>Select a `.txt` file from your device.</p>
+            <input type="file" id="importFile" >
+            
+
+            
+        </div>
+        
+        
+      <div class="card" id="picView">
+            <h2>📸Take a Photo</h2>
+            <input id="openCam" type="file" name="photo" accept="image/*" capture="environment" placeholder="take a photo">
+            <button id="savePic">💾Image</button>
+            
+        </div>
+        
+        <div class="card2">
+            <h2>✨ . Create and Edit Notes</h2>
+            <p>Edit the file content in the text area below.</p>
+            <textarea id="contentArea" placeholder="Write your notes here..." rows="10"></textarea>
+        </div>
+        
+        <div class="card">
+            <h2>💾 Download Your Notes</h2>
+            <p>Click the button to download the edited file.</p>
+            <button id="exportFile">📥 Download⚡</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
